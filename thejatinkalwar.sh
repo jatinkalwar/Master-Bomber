@@ -201,7 +201,7 @@ echo -e '\e[91m
                  ─▐─█────█─▌─
                  ────▌──▐────
 '
-echo -e "\e[93m                  CALL ME \e[92mJATT" | pv -qL 10
+echo -e "\e[93m                     CALL ME \e[92mJATT" | pv -qL 10
 echo -e "\e[93m               REAL NAME \e[92mJATIN KALWAR" | pv -qL 10
 echo -e "\e[93m             IAM FROM \e[92mYOURHACKINGHOUSE" | pv -qL 10
 echo -e "\e[93m       IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
