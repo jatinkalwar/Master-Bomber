@@ -50,11 +50,13 @@ pkg install git python;cd;if [ -d /scripts ]; then echo 'Exists'; else mkdir scr
 ```
 sudo apt install git python;cd;if [ -d /scripts ]; then echo 'Exists'; else mkdir scripts;cd scripts;mkdir Social-Attacks; fi;cd Social-Attacks;git clone https://github.com/jatinkalwar/Master-Bomber;cd Master-Bomber;chmod +x thejatinkalwar.sh;./thejatinkalwar.sh
 ``` 
+# JOIN US:
 
-# JOIN OUR WHATSAPP GROUP
-'''
+ Just drop a message on Whatsapp...
+
+```
 +994 408609255
-'''
+```
 
 # CONTACT ME:
 
