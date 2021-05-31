@@ -50,6 +50,15 @@ pkg install git python;cd;if [ -d /scripts ]; then echo 'Exists'; else mkdir scr
 ```
 sudo apt install git python;cd;if [ -d /scripts ]; then echo 'Exists'; else mkdir scripts;cd scripts;mkdir Social-Attacks; fi;cd Social-Attacks;git clone https://github.com/jatinkalwar/Master-Bomber;cd Master-Bomber;chmod +x thejatinkalwar.sh;./thejatinkalwar.sh
 ``` 
+### > Requirements:
+```
+pkg install cowsay
+pkg install lolcat
+pkg install pv
+pip install requests
+pip install colorama
+pkg install figlet
+```
 # JOIN US:
 
  Just drop a message on Whatsapp...
