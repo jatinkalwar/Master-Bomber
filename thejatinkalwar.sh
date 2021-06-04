@@ -34,7 +34,7 @@ distro="$(source /etc/os-release && echo $ID)"
 echo 'This Bomber Was Created By The Jatin Kalwar' | lolcat
     echo 'For Any Queries Contact Me!!!'| lolcat
     echo 'Facebook:- Yourhackinghouse'| lolcat
-    echo 'Intagram:- Yourhackinghouse'| lolcat
+    echo 'Instagram:- Yourhackinghouse'| lolcat
     echo 'Join our Whatsapp group :- +994408609255' | lolcat
     echo ' '| lolcat
     echo 'Please use for Educational Purpose only!!!'| lolcat
