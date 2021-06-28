@@ -1,5 +1,46 @@
 #!/bin/bash
 
+check(){
+
+if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v1.2 2>/dev/null; then
+
+cd $HOME/spamx/server/updates
+
+echo "spmx" > update.txt
+
+else
+
+echo
+
+fi
+
+}
+
+echo
+
+check
+
+option(){
+
+if [ -f "$HOME/Master-Bomber/update.txt" ];then
+
+cd $HOME/Master-Bomber
+
+bash update.sh
+
+else
+
+echo " "
+
+fi
+
+}
+
+
+
+
+
+
 detect_distro() {
    if [[ "$OSTYPE" == linux-android* ]]; then
 distro="termux"
