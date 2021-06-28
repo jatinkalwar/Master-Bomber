@@ -183,7 +183,7 @@ do
 banner
     echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
     echo " "
-    echo "Press 1 To  Start SMS  Bomber " | lolcat
+    echo "Press 1 To  Start SMS  omber " | lolcat
     echo "Press 2 To  Start CALL Bomber "| lolcat
     echo "Press 3 To  Start MAIL Bomber " | lolcat
     echo "press 4 To  Visit Our Website" | lolcat
