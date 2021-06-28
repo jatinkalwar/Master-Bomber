@@ -4,7 +4,7 @@ check(){
 
 if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v1.2 2>/dev/null; then
 
-cd $HOME/spamx/server/updates
+cd $HOME/Master-Bomber
 
 echo "spmx" > update.txt
 
