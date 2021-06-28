@@ -21,7 +21,7 @@ def verCheck():
     ver_rqst = requests.get(ver_url)
     ver_sc = ver_rqst.status_code
     if ver_sc == 200:
-        with open('Core/version.txt') as f:
+        with open('version.txt') as f:
             ver_current = f.read()
             ver_current = ver_current.strip()
             github_ver = ver_rqst.text
