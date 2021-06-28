@@ -33,7 +33,7 @@ def verCheck():
             print("{1}[{0}+{1}] {0}[Current]- {2}v {3}\n{1}[{0}+{1}] {0}[Available]- {2}v.{4}".format(GREEN, RED, DEFAULT, ver_current, github_ver)) 
             print("{1}[{0}>{1}] {1}Updating To The Latest Version {0}[v {3}]... \n{1}[{0}>{1}] {0}Please Wait\n".format(GREEN, RED, DEFAULT, github_ver))
             sleep(2)
-            system("git clone https://github.com/navin-hariharan/Master-Bomber ../TEMP")
+            system("git clone https://github.com/jatinkalwar/Master-Bomber ../TEMP")
             system("cd ..;rm -rf  Master-Bomber;mv TEMP Master-Bomber;cd Master-Bomber;chmod +x *")
             system("echo 'RESTART THE TERMINAL'")
     else:
