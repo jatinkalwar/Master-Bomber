@@ -6,7 +6,7 @@ if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/mas
 
 cd $HOME/Master-Bomber
 
-echo "spmx" > update.txt
+echo "ig" > update.txt
 
 else
 
