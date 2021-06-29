@@ -1,6 +1,6 @@
 cd $HOME/Master-Bomber                                                                                     
 update(){                                                                                                             
-if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v3.2 2>/dev/null; then
+if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v1.2 2>/dev/null; then
 cd $HOME/Master-Bomber/
 rm *.txt
 echo "ig" > update.txt
@@ -14,7 +14,7 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m          MASTER BOMBER UPDATED V3.1 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
+echo -e "\e[92m          MASTER BOMBER UPDATED V1.1 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
 echo -e "\e[96m                ║       \e[93mMaster-Bomber\e[96m Uptodate\e[93m V3.1\e[96m        ║\e[0m"
 echo -e "\e[96m                ║        No Updates \e[93mRolled Out\e[96m      ║\e[0m"
