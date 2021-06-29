@@ -51,7 +51,7 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m                 MASTER BOMBER NEW UPDATE V3.2 IS AVAILABLE\e[0m"
+echo -e "\e[92m                 MASTER BOMBER NEW UPDATE V1.2 IS AVAILABLE\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
 echo -e "\e[96m                ║  \e[93mIghack\e[96m Update Is avaialbe\e[93m V3.2\e[96m   ║\e[0m"
 echo -e "\e[96m                ║    To Update The \e[93mMaster Bomber\e[96m Tool      ║\e[0m"
