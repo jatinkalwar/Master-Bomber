@@ -1,42 +1,78 @@
 #!/bin/bash
 
+
+
+
+
 check(){
-
-if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v1.2 2>/dev/null; then
-
-cd $HOME/Master-Bomber
-
-echo "ig" > update.txt
-
+if wget --spider https://raw.githubusercontent.com/jatinkalwar/Master-Bomber/master/update.v2.0 2>/dev/null; then
+cd $HOME/Master-Bomber/server
+echo "ms" > update.txt
 else
-
 echo
-
 fi
-
 }
-
-
+echo
 check
-
 option(){
-
-if [ -f "$HOME/Master-Bomber/update.txt" ];then
-
-cd $HOME/Master-Bomber
-
+if [ -f "$HOME/Master-Bomber/server/update.txt" ];then
+cd $HOME/Master-Bomber/server
 bash update.sh
-
 else
-
 echo " "
-
 fi
-
 }
-
-
 option
+check1(){
+if wget --spider https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/ms.v.1 2>/dev/null; then
+cd $HOME/Master-Bomber/server
+echo "ms" > patch.txt
+else
+echo
+fi
+}
+check1
+option1(){
+if [ -f "/data/data/com.termux/files/Master-Bomber/server/patch.txt" ];then
+cd $HOME/Master-Bomber/server
+bash patch.sh
+else
+echo " "
+fi
+}
+option1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
